@@ -21,6 +21,7 @@ export default function FaqAccordion() {
 
     return (
         <div className="faq-container">
+            <h2>FAQ Accordion</h2>
           {faqs.map((faq, index) => (
             <div key={index} className="faq-item">
               <div className="faq-question" onClick={() => toggleAccordion(index)}>
