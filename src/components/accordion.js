@@ -10,4 +10,12 @@ const faqs = [
     { question: "Who painted the Mona Lisa?", answer: "Leonardo da Vinci painted the Mona Lisa." },
     { question: "What is the longest river in the world?", answer: "The Nile River is commonly considered the longest river in the world." }
 
-]
+];
+
+export default function FaqAccordion() {
+    const [activeIndex, setActiveIndex] = useState(null);
+  
+    const toggleAccordion = (index) => {
+      setActiveIndex(activeIndex === index ? null : index);
+    };
+}
