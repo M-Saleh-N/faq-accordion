@@ -16,3 +16,12 @@ body {
     max-width: 600px;
     width: 100%;
   }
+  
+  .faq-item {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 15px;
+    overflow: hidden;
+  }
+  
+
+  
