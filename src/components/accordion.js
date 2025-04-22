@@ -18,4 +18,17 @@ export default function FaqAccordion() {
     const toggleAccordion = (index) => {
       setActiveIndex(activeIndex === index ? null : index);
     };
+
+    return (
+        <div className="faq-container">
+          {faqs.map((faq, index) => (
+            <div key={index} className="faq-item">
+              <div className="faq-question" onClick={() => toggleAccordion(index)}>
+                <h3>{faq.question}</h3>
+              </div>
+              {activeIndex === index && <div className="faq-answer">{faq.answer}</div>}
+            </div>
+          ))}
+        </div>
+      );
 }
