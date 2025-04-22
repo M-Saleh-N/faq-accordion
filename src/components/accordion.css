@@ -36,3 +36,17 @@ body {
     background: #48888b;
   }
   
+  .faq-question h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .faq-answer {
+    padding: 15px 20px;
+    color: #333;
+    background: #f9f9f9;
+    border-radius: 0 0 8px 8px;
+    font-size: 16px;
+  }
+  
+  
