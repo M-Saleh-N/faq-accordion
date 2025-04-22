@@ -24,7 +24,7 @@ body {
   }
   
   .faq-question {
-    background: #5ba178;
+    background: #8f6a4a;
     color: white;
     padding: 15px 20px;
     border-radius: 8px;
@@ -33,7 +33,7 @@ body {
   }
   
   .faq-question:hover {
-    background: #48888b;
+    background: #7c7446;
   }
   
   .faq-question h3 {
